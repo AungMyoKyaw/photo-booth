@@ -7,8 +7,9 @@ A modern web-based photo booth built with Svelte 5, SvelteKit, and Tailwind CSS.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Svelte](https://img.shields.io/badge/Svelte-5.0-orange)](https://svelte.dev)
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-Latest-red)](https://kit.svelte.dev)
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange)](https://workers.cloudflare.com)
 
-[Features](#-features) • [Getting Started](#-getting-started) • [Development](#-development)
+**[🌐 Live Demo](https://photo-booth.aungmyokyaw.workers.dev/)** • [Features](#-features) • [Getting Started](#-getting-started) • [Development](#-development)
 
 </div>
 
@@ -58,7 +59,7 @@ A modern web-based photo booth built with Svelte 5, SvelteKit, and Tailwind CSS.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/photo-booth.git
+git clone https://github.com/AungMyoKyaw/photo-booth.git
 cd photo-booth
 
 # Install dependencies
@@ -80,6 +81,18 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 bun run build
 bun run preview
 ```
+
+### Deployment
+
+This project is deployed on **Cloudflare Workers** using `@sveltejs/adapter-cloudflare`.
+
+```bash
+# Deploy to Cloudflare Workers
+bun run build
+npx wrangler deploy
+```
+
+**Live Demo**: https://photo-booth.aungmyokyaw.workers.dev/
 
 ---
 
@@ -145,6 +158,7 @@ photo-booth/
 
 - **Framework**: [Svelte 5](https://svelte.dev) with Svelte 5 Runes (`$state`, `$derived`, `$props`)
 - **Meta-framework**: [SvelteKit](https://kit.svelte.dev)
+- **Deployment**: [Cloudflare Workers](https://workers.cloudflare.com) with [@sveltejs/adapter-cloudflare](https://kit.svelte.dev/docs/adapter-cloudflare)
 - **Styling**: CSS with CSS custom properties
 - **Icons**: [Lucide Svelte](https://lucide.dev/icons/)
 - **Type Safety**: [TypeScript](https://www.typescriptlang.org)
@@ -184,6 +198,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Built with [Svelte 5](https://svelte.dev) and [SvelteKit](https://kit.svelte.dev)
+- Deployed on [Cloudflare Workers](https://workers.cloudflare.com)
 - Icons from [Lucide](https://lucide.dev)
 - Inspired by classic photo booth experiences
 - Developed with assistance from **GLM 4.7**
@@ -192,7 +207,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ using [Svelte 5](https://svelte.dev) • Built with 🤖 GLM 4.7
+Made with ❤️ by [Aung Myo Kyaw](https://github.com/AungMyoKyaw)
+
+Built with [Svelte 5](https://svelte.dev) • 🤖 GLM 4.7
+
+**[🌐 Live Demo](https://photo-booth.aungmyokyaw.workers.dev/)** • [📦 GitHub](https://github.com/AungMyoKyaw/photo-booth)
 
 [⬆ Back to Top](#-photo-booth)
 

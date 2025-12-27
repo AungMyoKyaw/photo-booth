@@ -222,8 +222,15 @@
 
 	<footer class="footer">
 		<p>
-			Made with Svelte 5.
-			<a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+			Made with ❤️ by <a href="https://github.com/AungMyoKyaw" target="_blank" rel="noopener"
+				>Aung Myo Kyaw</a
+			>
+		</p>
+		<p>
+			Built with <a href="https://svelte.dev" target="_blank" rel="noopener">Svelte 5</a> • 🤖 GLM 4.7
+		</p>
+		<p>
+			<a href="https://github.com/AungMyoKyaw/photo-booth" target="_blank" rel="noopener">GitHub</a>
 		</p>
 	</footer>
 </div>

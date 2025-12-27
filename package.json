@@ -3,6 +3,11 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AungMyoKyaw/photo-booth.git"
+	},
+	"homepage": "https://photo-booth.aungmyokyaw.workers.dev",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
